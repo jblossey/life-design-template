@@ -1,6 +1,6 @@
 <template>
   <div>
-      <b-navbar toggleable="true" type="dark" variant="dark">
+      <b-navbar toggleable="true" type="dark" variant="dark" class="p-2">
         <b-navbar-brand href="#">DYHL Card Template</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -8,6 +8,9 @@
             <b-navbar-nav>
                 <b-nav-item href="#">Empathise</b-nav-item>
                 <b-nav-item href="#">Define</b-nav-item>
+                <b-nav-item href="#">Ideate</b-nav-item>
+                <b-nav-item href="#">Prototype</b-nav-item>
+                <b-nav-item href="#">Test</b-nav-item>
             </b-navbar-nav>
         </b-collapse>
     </b-navbar>
@@ -17,9 +20,6 @@
 <script>
 export default {
   name: 'Navbar',
-  props: {
-    msg: String,
-  },
 };
 </script>
 
