@@ -1,0 +1,152 @@
+{
+    "Empathise": {
+        "My Past": {
+            "My Ancestry": [
+                "What preceded me",
+                "family history, birthplace, country, generation"
+            ],
+            "My Lifestory": [
+                "How my life was",
+                "milestones, successes, failures, decisions"
+            ]
+        },
+        "My Present": {
+            "Me": [
+                "Who I am",
+                "health, IQ, traits, values, skills, knowledge, ..."
+            ],
+            "My Relationships": [
+                "With whom I interact and how",
+                "relation, impact, role, influence, ..."
+            ],
+            "My Assets": [
+                "What I possess and how I manage it",
+                "assets & liabilities, profit & loss, ..."
+            ],
+            "My Locations": [
+                "Where I live and why",
+                "home, work, vacation, environment, opportunities, ..."
+            ]
+        }
+    },
+    "Define": {
+        "My Future": {
+            "My Legacy": [
+                "What I leave behind",
+                "remembered for / by: grand-children, people, ..."
+            ],
+            "My Life": [
+                "How my life will be",
+                "dream, potential, desire, well-being, security, ..."
+            ]
+        },
+        "My Needs": {
+            "Me": [
+                "Who I need to be",
+                "improve, strengthen, review, change, keep, ..."
+            ],
+            "My Relationships": [
+                "With whom I should interact and how",
+                "get to know, improve, leave, support, ..."
+            ],
+            "My Assets": [
+                "What should I possess and how to manage it",
+                "accquire, borrow, reduce, replace, ..."
+            ],
+            "My Locations": [
+                "How and where I want to live",
+                "live in, study at, work in, go to, visit, ..."
+            ]
+        }
+    },
+    "Ideate": {
+        "My Visions": {
+            "My worst case scenario": [
+                "What could likely be the worst life scenario",
+                "it might, i worry about, there is a chance, ..."
+            ],
+            "My ideal life": [
+                "What could be the possibly best life scenario",
+                "i could be, would have, stay in, ..."
+            ]
+        },
+        "My Ideas": {
+            "Me": [
+                "What I can do to become who I want to be",
+                "test, read, talk to, practice, get, ..."
+            ],
+            "My Relationships": [
+                "What I can do to interact with whom I want",
+                "test, read, talk to, practice, get, ..."
+            ],
+            "My Assets": [
+                "What I can do to get what I want",
+                "test, read, talk to, practice, get, ..."
+            ],
+            "My Locations": [
+                "What I can do to be where I want",
+                "test, read, talk to, practice, get, ..."
+            ]
+        }
+    },
+    "Prototype": {
+        "My Plan": {
+            "My detailed life plan": [
+                "Which projects will I realise when in my life",
+                "is a precondition for, will lead to, ..."
+            ],
+            "Prototype project plan": [
+                "When will I do what in the next weeks",
+                "contact, start, try, use, buy, ..."
+            ]
+        },
+        "My Prototypes": {
+            "Me": [
+                "Which of my features will I work on next and how",
+                "needs to be, consists of, start with, first, finish by, ..."
+            ],
+            "My Relationships": [
+                "Which relations will I work on next and how",
+                "needs to be, consists of, start with, first, finish by, ..."
+            ],
+            "My Assets": [
+                "Which asset will I work on next and how",
+                "needs to be, consists of, start with, first, finish by, ..."
+            ],
+            "My Locations": [
+                "Which location will I work on next and how",
+                "needs to be, consists of, start with, first, finish by, ..."
+            ]
+        }
+    },
+    "Test": {
+        "My Results": {
+            "Successful Prototypes": [
+                "Which prototypes worked and why",
+                "i succeeded in, it worked because, ..."
+            ],
+            "Failed Prototypes": [
+                "Which prototypes failed and why",
+                "i failed in, it failed because, ..."
+            ]
+        },
+        "My Changes": {
+            "Me": [
+                "How it changed me",
+                "learned, improved, changed, better at, reviewed, ..."
+            ],
+            "My Relationships": [
+                "How it changed my relations",
+                "got to know, improved, stopped, supported, ..."
+            ],
+            "My Assets": [
+                "What changed in my assets",
+                "accquired, lost, replaced, ... "
+            ],
+            "My Locations": [
+                "What changed in my location",
+                "lived in, studied at, worked at, went to, visited, ..."
+            ]
+        }
+    }
+}
