@@ -1,12 +1,17 @@
 <template>
-  <b-col>
-    <h3 class="text-center">
-      {{cardTitle}}
-    </h3>
-    <div v-for="description in cardData" :key="description" class="description">
-      {{description}}
-    </div>
-  </b-col>
+    <b-card
+      :title="cardTitle"
+      bg-variant="dark"
+      text-variant="light"
+      class="text-center"
+      border-variant="light"
+      body-bg-variant="light"
+      body-border-variant="dark"
+    >
+      <b-card-text v-for="description in cardData" :key="description">
+        {{description}}
+      </b-card-text>
+    </b-card>
 </template>
 
 <script>

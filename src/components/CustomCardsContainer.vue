@@ -3,10 +3,10 @@
     <h2 class="text-center">
       {{customCardTitle}}
     </h2>
-    <b-row>
+    <b-card-group>
       <Card v-for="(card, key) in customCardData"
         :key="key" :cardTitle="key" :cardData="card"/>
-    </b-row>
+    </b-card-group>
   </b-col>
 </template>
 
