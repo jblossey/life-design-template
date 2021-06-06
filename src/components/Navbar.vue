@@ -2,6 +2,13 @@
   <div>
     <b-navbar toggleable="true" type="dark" variant="dark" class="p-2">
         <b-navbar-brand href="#">DYHL Card Template</b-navbar-brand>
+        <b-button
+          @click="$emit('exportToPdfTrigger')"
+          variant="light"
+          style="margin-left: auto; margin-right: 1em;"
+        >
+          Export to PDF
+        </b-button>
         <b-button v-b-toggle.menu variant="light">Menu</b-button>
         <b-sidebar
           title="Jump To..."
@@ -15,7 +22,7 @@
           no-header-close
         >
           <b-nav vertical class="w-50" v-for="(stage, key) in cardContents" :key="key">
-              <b-nav-item :href="'#'+key">{{key}}</b-nav-item>
+            <b-nav-item :href="'#'+key">{{key}}</b-nav-item>
           </b-nav>
         </b-sidebar>
     </b-navbar>

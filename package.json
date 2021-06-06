@@ -13,6 +13,7 @@
     "bootstrap": "^5.0.1",
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
+    "html2pdf.js": "^0.9.3",
     "mutationobserver-shim": "^0.3.7",
     "vue": "^2.6.11"
   },
