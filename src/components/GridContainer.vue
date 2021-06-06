@@ -1,7 +1,11 @@
 <template>
-  <b-container class="mx-auto" id="gridcontainer">
-      <Stage v-for="(stage, key) in cardContents" :key="key"
-        v-bind:stageData="stage" :stageTitle="key"/>
+  <b-container fluid class="mx-auto p-0 w-100" id="gridcontainer">
+      <Stage
+        v-for="(stage, key) in cardContents" :key="key"
+        v-bind:stageData="stage"
+        :stageTitle="key"
+        class="m-2 p-1 flex-nowrap"
+      />
   </b-container>
 </template>
 
@@ -22,7 +26,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  #gridcontainer {
-    width: 100%;
-  }
 </style>

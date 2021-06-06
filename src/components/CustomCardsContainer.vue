@@ -1,11 +1,18 @@
 <template>
   <b-col cols="3">
-    <h2 class="text-center">
-      {{customCardTitle}}
+    <h2
+      class="text-center containerTitle mx-auto my-0 text-nowrap"
+      :id="customContainerTitle.toLowerCase().replace(/\s/g, '') + 'Title'"
+    >
+      {{customContainerTitle}}
     </h2>
     <b-card-group>
-      <Card v-for="(card, key) in customCardData"
-        :key="key" :cardTitle="key" :cardData="card"/>
+      <Card
+        v-for="(card, key) in customCardsData" :key="key"
+        :cardTitle="key"
+        :cardData="card"
+        :stage="currentStage"
+      />
     </b-card-group>
   </b-col>
 </template>
@@ -19,11 +26,13 @@ export default {
     return {
       cardTitle: String,
       cardData: Array,
+      currentStage: this.stage,
     };
   },
   props: {
-    customCardTitle: String,
-    customCardData: Object,
+    customContainerTitle: String,
+    customCardsData: Object,
+    stage: String,
   },
   components: {
     Card,
@@ -33,5 +42,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+  .containerTitle {
+    transform: translateY(-1rem);
+    background-color: white;
+    width:75%;
+  }
 </style>
