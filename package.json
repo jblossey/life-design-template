@@ -14,7 +14,8 @@
     "core-js": "^3.6.5",
     "html2pdf.js": "^0.9.3",
     "mutationobserver-shim": "^0.3.7",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-cookies": "^1.7.4"
   },
   "devDependencies": {
     "@vue/cli": "^4.5.13",
